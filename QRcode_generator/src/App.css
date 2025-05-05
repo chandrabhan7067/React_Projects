@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background: linear-gradient(green, rgb(0, 166, 255));
+  height: 100vh;
+}
+
+input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  height: 25px;
+  width: 25%;
+}
+
+button{
+  padding: 8px 12px;
+  border: 1px solid #34e469;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #00ff91;
+}
+
+img{
+  transition: 0.5s;
+}
+
+p{
+  color: orangered;
+}
+
+@media only screen and (max-width: 650px) {
+  input{
+    width: 50%;
+  }
+  
+}
